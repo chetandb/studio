@@ -63,15 +63,15 @@ export default function Home() {
               <div className="grid gap-2">
                 <div className="flex justify-between text-sm text-muted-foreground">
                   <span>Tip Amount:</span>
-                  <span>${tipAmount.toFixed(2)}</span>
+                  <span>₹{tipAmount.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between text-sm text-muted-foreground">
                   <span>Total Bill:</span>
-                  <span>${totalBillAmount.toFixed(2)}</span>
+                  <span>₹{totalBillAmount.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between text-sm text-muted-foreground">
                   <span>Amount per Person:</span>
-                  <span>${individualShare.toFixed(2)}</span>
+                  <span>₹{individualShare.toFixed(2)}</span>
                 </div>
               </div>
             </div>
