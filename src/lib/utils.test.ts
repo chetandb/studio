@@ -41,7 +41,7 @@ describe('cn', () => {
         'hover:underline',
       ),
     ).toEqual(
-      'text-blue-500 font-bold hover:text-green-500 p-4 m-2 hover:underline',
+      'text-red-500 font-bold text-blue-500 hover:text-green-500 p-4 m-2 hover:underline',
     );
   });
 });
