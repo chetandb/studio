@@ -1,3 +1,4 @@
+// Ensure ts-node is installed to parse this TypeScript configuration file.
 import type { Config } from 'jest';
 
 const config: Config = {
